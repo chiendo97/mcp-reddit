@@ -22,3 +22,8 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/mcp_reddit"] 
+
+[dependency-groups]
+dev = [
+    "ipython>=9.2.0",
+]
